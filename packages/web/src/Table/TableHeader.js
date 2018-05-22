@@ -3,7 +3,7 @@ import styled from "styled-components";
 
 const Root = styled.thead``;
 
-type Props = {
+export type Props = {
   headers: Array<String>,
   columnProps?: Array<{
     title?: string,

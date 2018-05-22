@@ -26,7 +26,7 @@ const MenuButton = styled(Button)`
   border-radius: 0;
 `;
 
-type Props = {
+export type Props = {
   children: React.ReactNode,
   border?: boolean,
 }

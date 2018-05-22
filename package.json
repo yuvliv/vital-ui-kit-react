@@ -102,5 +102,8 @@
     "rollup-plugin-visualizer": "0.6.0",
     "rxjs": "6.0.0",
     "storybook-host": "4.1.5"
+  },
+  "dependencies": {
+    "flow-typed": "^2.4.0"
   }
 }

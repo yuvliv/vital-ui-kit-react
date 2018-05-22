@@ -10,12 +10,12 @@ import { StyledTable } from './styled';
 import Caption from './TableCaption';
 import Header from './TableHeader';
 
-type State = {
+export type State = {
   headers: Array<string>,
   columnProps: Array<Object>
 };
 
-type Props = {
+export type Props = {
   data: Array<Object>,
   children: React.ReactNode,
   caption: React.ReactNode,

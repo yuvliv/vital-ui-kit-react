@@ -8,7 +8,7 @@ import React, { type Node, Component } from 'react';
 
 import { ListGroupWrapper } from './styled';
 
-type Props = {
+export type Props = {
   /** Children of ListItem */
   children: Array<Node>,
   /** Light or dark theme */

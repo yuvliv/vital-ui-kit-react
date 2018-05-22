@@ -26,7 +26,7 @@ const Root = styled.span`
   ${inverseStyle}
 `;
 
-type Props = {
+export type Props = {
   /** Text on the badge */
   label: string | number,
   /** show 99+ if number is more than 100 */

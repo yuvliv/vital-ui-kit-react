@@ -1,5 +1,13 @@
+import { Props as CheckboxProps } from './Checkbox';
+import { State as Checkboxstate } from './Checkbox';
+
 export { default as Checkbox } from './Checkbox';
 export { default as CheckboxGroup } from './CheckboxGroup';
+
+export {
+    CheckboxProps,
+    Checkboxstate
+}
 
 /** @render react
  * @name CheckboxGroup

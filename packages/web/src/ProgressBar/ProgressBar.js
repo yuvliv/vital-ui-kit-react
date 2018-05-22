@@ -44,7 +44,7 @@ type State = {
   width: number
 };
 
-type Props = {
+export type ProgressBarProps = {
   size?: 'small' | 'medium' | 'large',
   /** 1 - 100 precentage */
   value: number,

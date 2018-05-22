@@ -14,7 +14,7 @@ const Root = styled.div`
   white-space: nowrap;
 `;
 
-type Props = {
+export type Props = {
   children: Node,
   vertical?: boolean,
   /** The default active, match with pill's id */

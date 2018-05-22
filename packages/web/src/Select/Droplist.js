@@ -6,7 +6,7 @@ import DroplistItem from './DroplistItem';
 
 import type { ItemType } from './type';
 
-type Props = {
+export type Props = {
   items: Array<ItemType>,
   onClick: (Item: ItemType) => any
 };

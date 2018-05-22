@@ -12,13 +12,18 @@ const Root = styled.div`
   z-index: 10000;
 `;
 
+type state = {
+  modalTop: 0,
+  modalLeft: 0,
+}
+
 type Props = {
   children: React.ReactNode,
   windowWidth: number,
   windowHeight: number,
 }
 
-class ModalWrapper extends React.Component<Props> {
+class ModalWrapper extends React.Component<Props, State> {
   state = {
     modalTop: 0,
     modalLeft: 0,

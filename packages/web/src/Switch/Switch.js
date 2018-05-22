@@ -101,11 +101,11 @@ const TextOn = styled(Text)`
   left: -20px;
 `;
 
-type State = {
+export type State = {
   isChecked: boolean,
 };
 
-type Props = {
+export type Props = {
   defaultChecked?: boolean,
   isRound?: boolean,
   isDisabled?: boolean,

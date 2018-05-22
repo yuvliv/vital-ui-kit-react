@@ -36,7 +36,7 @@ const Root = styled.div`
  * </ButtonGroup>
  */
 
-type Props = {
+export type Props = {
   /** horizontal margin between buttons */
   marginHorizontal?: string,
   /** Buttons as children */

@@ -14,7 +14,7 @@ type Nature = 'default' | 'primary' | 'success' | 'info' | 'alarm' | 'warning';
 
 type Size = 'xlarge' | 'large' | 'medium' | 'small' | 'xsmall';
 
-type Props = {
+export type Props = {
   /** The content of the button */
   children?: React.ReactNode,
   /** on click event */

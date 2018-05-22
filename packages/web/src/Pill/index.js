@@ -1,6 +1,12 @@
+import { Props as PillProps } from './Pill';
+import { Props as PillsGroupProps } from './PillsGroup';
+
 export { default as PillsGroup } from './PillsGroup';
 export { default as Pill } from './Pill';
-
+export {
+    PillProps
+    PillsGroupProps
+}
 /**
  * @render react
  * @name Pills

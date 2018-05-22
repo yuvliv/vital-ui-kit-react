@@ -72,7 +72,7 @@ const Label = styled.span`
   padding-left: 4px;
 `;
 
-type Props = {
+export type Props = {
   label: string,
   name: string,
   value: string,

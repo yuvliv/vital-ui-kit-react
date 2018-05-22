@@ -22,7 +22,7 @@ function getIcon(iconName, iconPaths) {
   return null;
 }
 
-type Props = {
+export type Props = {
   name: string,
   size?: number,
   color?: string,

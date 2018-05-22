@@ -19,14 +19,14 @@ const Root = styled.div`
   padding: 8px 0 0 12px;
 `;
 
-type Props = {
+export type Props = {
   children: TabList,
   defaultActiveIndex?: number,
   beforeTabChange?: (index: number) => {},
   afterTabChange?: (index: number) => {}
 };
 
-type State = {
+export type State = {
   activeIndex: number,
 }
 

@@ -33,7 +33,7 @@ const Image = styled.img`
 type SizeType = 'xlarge' | 'large' | 'medium' | 'small' | 'xsmall';
 type Gender = 'male' | 'female';
 
-type Props = {
+export type Props = {
   src?: string,
   round?: boolean,
   size?: SizeType,

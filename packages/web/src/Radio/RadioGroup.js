@@ -10,7 +10,7 @@ import Radio from './Radio';
 
 const Root = styled.div``;
 
-type Props = {
+export type Props = {
   items: Array<{
     name: string,
     value: string,

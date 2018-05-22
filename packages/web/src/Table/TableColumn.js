@@ -1,7 +1,7 @@
 // @flow
 /* eslint-disable no-unused-vars */
 
-type Props = {
+export type Props = {
   field: string,
   title?: string,
   className?: string

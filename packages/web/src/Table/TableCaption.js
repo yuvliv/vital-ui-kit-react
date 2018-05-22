@@ -7,7 +7,7 @@ const Root = styled.caption`
   padding: 1.25rem 0;
 `;
 
-type Props = {
+export type Props = {
   children: Node,
   className?: string,
 };

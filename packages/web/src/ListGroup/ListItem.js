@@ -37,7 +37,7 @@ const BadgeWrapper = styled(Title)`
   padding-right: ${props => (props.hasIconRight ? '20px' : '0')};
 `;
 
-type Props = {
+export type Props = {
   /** Children node inside ListItem, nested ListItem */
   children?: Node,
   /** Expand state, will toggle open on click by default */

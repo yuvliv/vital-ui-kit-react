@@ -24,7 +24,7 @@ const ListWrapper = styled.li`
   font-size: 0.875rem;
 `;
 
-type Props = {
+export type Props = {
   /** total page size */
   pageSize: number,
   /** current active page size */

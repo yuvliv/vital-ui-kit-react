@@ -64,11 +64,11 @@ const IconWrapper = styled.div`
   transition: all 120ms ease-out;
 `;
 
-type State = {
+export type State = {
   isChecked: boolean,
 }
 
-type Props = {
+export type Props = {
   initiallyChecked?: boolean,
   isDisabled?: boolean,
   isRound?: boolean,

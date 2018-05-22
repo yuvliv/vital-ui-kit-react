@@ -23,7 +23,7 @@ const Item = styled.div`
   }
 `;
 
-type Props = {
+export type Props = {
   item: ItemType,
   onClick: (item: ItemType) => void,
 };

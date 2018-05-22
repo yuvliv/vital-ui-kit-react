@@ -1,6 +1,14 @@
+import { Props as ListgroupProps } from './ListGroup';
+import { Props as ListitemProps } from './Listitem';
+
 export { default as ListGroup } from './ListGroup';
 export { default as ListItem } from './ListItem';
 export { ListContent } from './ListContent';
+
+export {
+    ListgroupProps,
+    ListitemProps
+}
 
 /**
  * @render react

@@ -1,5 +1,12 @@
+import { Props as RadioProps } from './Radio';
+import { Props as RadioGroupProps } from './RadioGroup';
+
 export { default as Radio} from './Radio';
 export { default as RadioGroup } from './RadioGroup';
+export {
+    RadioProps
+    RadioGroupProps
+}
 
 /**
  * @render react

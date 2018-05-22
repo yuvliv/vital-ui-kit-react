@@ -14,7 +14,7 @@ const Root = styled.div`
   height: 100%;
 `;
 
-type Props = {
+export type Props = {
   border?: boolean,
   children?: React.ReactNode,
 }

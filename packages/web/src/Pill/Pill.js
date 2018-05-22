@@ -68,7 +68,7 @@ const PillBadge = styled(Badge)`
   float: right;
 `;
 
-type Props = {
+export type Props = {
   /** Require id for each Pills */
   id: string | number,
   /** Content inside Pill */

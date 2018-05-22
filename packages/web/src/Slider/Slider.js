@@ -14,7 +14,7 @@ import Track from '../Track';
 
 import constants from './constants';
 
-type State = {
+export type State = {
   active: boolean,
   position: number,
   grab: number,
@@ -23,7 +23,7 @@ type State = {
   value: number
 };
 
-type Props = {
+export type Props = {
   size?: 'large' | 'medium' | 'small',
   min: number,
   max: number,

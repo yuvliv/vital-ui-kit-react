@@ -46,7 +46,7 @@ const Placeholder = styled(Selector)`
   color: #95acd4;
 `;
 
-type Props = {
+export type Props = {
   placeholder?: string,
   filltoContainer?: boolean,
   items: Array<ItemType>,
