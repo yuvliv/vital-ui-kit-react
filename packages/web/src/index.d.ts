@@ -31,7 +31,13 @@ import {
     TableColumnProps,
     TableHeaderProps
 } from './Table';
-import {TabsProps} from './Tabs';
+import {
+    TabsProps,
+    TabsState,
+    TabPanelProps,
+    TabListProps,
+    TabItemProps
+} from './Tabs';
 import {TooltipProps} from './Tooltip';
 import {TrackProps} from './Track';
 import {Props} from './';

@@ -12,7 +12,7 @@ const Root = styled.ul`
   display: inline-block;
 `;
 
-type Props = {
+export type Props = {
   children: TabItem,
 };
 

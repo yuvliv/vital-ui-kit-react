@@ -15,7 +15,7 @@ const Root = styled.div`
   padding: 10px;
 `;
 
-type Props = {
+export type Props = {
   children: React.ReactNode,
 }
 

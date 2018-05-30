@@ -47,7 +47,7 @@ const Label = Span.extend`
   margin-bottom: 1px;
 `;
 
-type Props = {
+export type Props = {
   label: React.ReactNode,
   current?: boolean,
   badge?: number | string,
